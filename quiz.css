@@ -1,0 +1,389 @@
+img{
+    width: 600px;
+    margin: auto;
+}
+body{
+    text-align: center;
+}
+
+.sen{
+  width: 45%;
+  height: 0.5px;
+  background-color: #000000;
+}
+
+.asan-toggle,
+.hidden-content {
+  display: none;
+}
+
+.asan-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.asan-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.asan-button::before {
+  content: '答え';
+}
+
+.asan-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.asan-button:hover {
+  opacity: 0.7;
+}
+
+.asan-button:active {
+  opacity: 0.4;
+}
+
+
+
+.oum-toggle,
+.hidden-content {
+  display: none;
+}
+
+.oum-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.oum-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.oum-button::before {
+  content: '答え';
+}
+
+.oum-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.oum-button:hover {
+  opacity: 0.7;
+}
+
+.oum-button:active {
+  opacity: 0.4;
+}
+
+
+
+.wain-toggle,
+.hidden-content {
+  display: none;
+}
+
+.wain-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.wain-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.wain-button::before {
+  content: '答え';
+}
+
+.wain-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.wain-button:hover {
+  opacity: 0.7;
+}
+
+.wain-button:active {
+  opacity: 0.4;
+}
+
+
+
+.yasi-toggle,
+.hidden-content {
+  display: none;
+}
+
+.yasi-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.yasi-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.yasi-button::before {
+  content: '答え';
+}
+
+.yasi-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.yasi-button:hover {
+  opacity: 0.7;
+}
+
+.yasi-button:active {
+  opacity: 0.4;
+}
+
+
+
+.wain-toggle,
+.hidden-content {
+  display: none;
+}
+
+.wain-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.wain-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.wain-button::before {
+  content: '答え';
+}
+
+.wain-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.wain-button:hover {
+  opacity: 0.7;
+}
+
+.wain-button:active {
+  opacity: 0.4;
+}
+
+
+
+.syou-toggle,
+.hidden-content {
+  display: none;
+}
+
+.syou-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.syou-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.syou-button::before {
+  content: '答え';
+}
+
+.syou-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.syou-button:hover {
+  opacity: 0.7;
+}
+
+.syou-button:active {
+  opacity: 0.4;
+}
+
+
+
+.tei-toggle,
+.hidden-content {
+  display: none;
+}
+
+.tei-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.tei-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.tei-button::before {
+  content: '答え';
+}
+
+.tei-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.tei-button:hover {
+  opacity: 0.7;
+}
+
+.tei-button:active {
+  opacity: 0.4;
+}
+
+
+
+.you-toggle,
+.hidden-content {
+  display: none;
+}
+
+.you-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.you-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.you-button::before {
+  content: '答え';
+}
+
+.you-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.you-button:hover {
+  opacity: 0.7;
+}
+
+.you-button:active {
+  opacity: 0.4;
+}
+
+
+
+.rou-toggle,
+.hidden-content {
+  display: none;
+}
+
+.rou-toggle:checked ~ .hidden-content {
+  display: block;
+}
+
+.rou-button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  background-color: #dbdbdb;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.3s;
+}
+
+.rou-button::before {
+  content: '答え';
+}
+
+.rou-toggle:checked ~ .more-button::before {
+  content: '閉じる';
+}
+
+.rou-button:hover {
+  opacity: 0.7;
+}
+
+.rou-button:active {
+  opacity: 0.4;
+}
