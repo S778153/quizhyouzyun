@@ -1,140 +1,190 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>推理クイズ</title>
-    <link rel="stylesheet" href="quiz.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="quiz.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>推理クイズ</title>
 </head>
 
 <body>
-    <div class="title">
-        <h1>推理クイズ</h1>
+  <div class="quizzes-container">
+    <h1>推理クイズ</h1>
+    <div class="quiz-container">
+      <h2>第1問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/あasa.png"></p>
+      </div>
+      <input type="checkbox" id="asa-toggle" class="asa-toggle">
+      <label for="asa-toggle" class="asa-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>犯人は妻。寝ていたなら証言をできるはずがない。</p>
+        </div>
+        <form id="quiz-1">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
     </div>
     <p>
-    <div class="asa" id="asa">
-        <img src="quiz/あasa.png">
-    </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="asan-toggle" class="asan-toggle">
-        <label for="asan-toggle" class="asan-button"></label>
-        <ul class="hidden-content">
-            犯人は妻。寝ていたなら証言をできるはずがない。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第2問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/オoum.png"></p>
+      </div>
+      <input type="checkbox" id="oum-toggle" class="oum-toggle">
+      <label for="oum-toggle" class="oum-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          ”私”は帰ったら「ただいま」と言うはずなのに、<br>
+          <p>オウムは真似せず「オカエリ」と言っている。</p>
+        </div>
+        <form id="quiz-2">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="oum" id="oum">
-        <img src="quiz/オoum.png">
-    </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="oum-toggle" class="oum-toggle">
-        <label for="oum-toggle" class="oum-button"></label>
-        <ul class="hidden-content">
-            ”私”は帰ったら「ただいま」と言うはずなのに、<br>
-            オウムは真似せず「オカエリ」と言っている。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第3問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/ワwain.png"></p>
+      </div>
+      <input type="checkbox" id="wain-toggle" class="wain-toggle">
+      <label for="wain-toggle" class="wain-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>友人の指紋も拭き取ってしまったから。</p>
+        </div>
+        <form id="quiz-3">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="wain" id="wain">
-        <img src="quiz/ワwain.png">
-    </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="wain-toggle" class="wain-toggle">
-        <label for="wain-toggle" class="wain-button"></label>
-        <ul class="hidden-content">
-            友人の指紋も拭き取ってしまったから。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第4問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/屋yasi.png"></p>
+      </div>
+      <input type="checkbox" id="yasi-toggle" class="yasi-toggle">
+      <label for="yasi-toggle" class="yasi-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>犯人は新聞配達員。火曜日以降新聞が配達されていないということは、
+            新聞を配達する必要がないと分かっていたから。</P>
+        </div>
+        <form id="quiz-4">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="yasi" id="yasi">
-        <img src="quiz/屋yasi.png">
-    </div>
-    目安時間:1分
-    <p></p>
-    <div>
-        <input type="checkbox" id="yasi-toggle" class="yasi-toggle">
-        <label for="yasi-toggle" class="yasi-button"></label>
-        <ul class="hidden-content">
-            犯人は新聞配達員。火曜日以降新聞が配達されていないということは、<br>
-            新聞を配達する必要がないと分かっていたから。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第5問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/小syou.png"></p>
+      </div>
+      <input type="checkbox" id="syou-toggle" class="syou-toggle">
+      <label for="syou-toggle" class="syou-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>小説を書くとき、手が黒くなるのは右手だ。</p>
+        </div>
+        <form id="quiz-5">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="syou" id="syou">
-        <img src="quiz/小syou.png">
-    </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="syou-toggle" class="syou-toggle">
-        <label for="syou-toggle" class="syou-button"></label>
-        <ul class="hidden-content">
-            小説を書くとき、手が黒くなるのは右手だ。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第6問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/停tei.png"></p>
+      </div>
+      <input type="checkbox" id="tei-toggle" class="tei-toggle">
+      <label for="tei-toggle" class="tei-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>昼だったから。</p>
+        </div>
+        <form id="quiz-6">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="tei" id="tei">
-        <img src="quiz/停tei.png">
-    </div>
-    目安時間:1分
-    <p></p>
-    <div>
-        <input type="checkbox" id="tei-toggle" class="tei-toggle">
-        <label for="tei-toggle" class="tei-button"></label>
-        <ul class="hidden-content">
-            昼だったから。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
+    <div class="quiz-container">
+      <h2>第7問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/容you.png"></p>
+      </div>
+      <input type="checkbox" id="you-toggle" class="you-toggle">
+      <label for="you-toggle" class="you-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>警察は「容疑者」という言葉を使わず、<br>
+            「被疑者」という言葉を使う。</p>
+        </div>
+        <form id="quiz-7">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
+    </div>
     <p>
-    <div class="you" id="you">
-        <img src="quiz/容you.png">
-    </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="you-toggle" class="you-toggle">
-        <label for="you-toggle" class="you-button"></label>
-        <ul class="hidden-content">
-            警察は「容疑者」という言葉を使わず、<br>
-            「被疑者」という言葉を使う。
-        </ul>
-    </div>
+      <hr>
     </p>
-    <hr class="sen" id="sen">
-    <p>
-    <div class="rou" id="rou">
-        <img src="quiz/蝋rou.png">
+    <div class="quiz-container">
+      <h2>第8問</h2>
+      ポイント:5点
+      <div class="img0" id="img0">
+        <p><img src="quiz/蝋rou.png"></p>
+      </div>
+      <input type="checkbox" id="rou-toggle" class="rou-toggle">
+      <label for="rou-toggle" class="rou-button"></label>
+      <ul class="hidden-content">
+        <div id="kotae" class="kotae">
+          <p>8本。火は消えてもロウソクは消えない。</p>
+        </div>
+        <form id="quiz-8">
+          <input name="answer" type="radio" value="a">正解した</input>
+          <input name="answer" type="radio" value="b">間違えた</input>
+        </form>
+      </ul>
     </div>
-    目安時間:30秒
-    <p></p>
-    <div>
-        <input type="checkbox" id="rou-toggle" class="rou-toggle">
-        <label for="rou-toggle" class="rou-button"></label>
-        <ul class="hidden-content">
-            8本。火は消えてもロウソクは消えない。
-        </ul>
+    <div id="score-container">
+      <p id="score-message"></p>
     </div>
-    </p>
+    <button class="btn-score" type="button"
+      onclick="disabled = true;answerQuiz1();answerQuiz2();answerQuiz3();answerQuiz4();answerQuiz5();answerQuiz6();answerQuiz7();answerQuiz8();showScore();">合計得点を見る</button>
+  </div>
 </body>
-
-</html>
