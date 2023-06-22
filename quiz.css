@@ -1,10 +1,11 @@
 .kotae{
   margin: auto;
   text-align: center;
+  font-size: 75%;
 }
 
 img{
-  width: 415px;
+  width: 400px;
   margin: auto;
 }
 body{
