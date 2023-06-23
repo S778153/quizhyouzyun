@@ -1,5 +1,5 @@
-.resizeimage { width: 75%; }
-.resizeimage img { width: 100%; }
+.resizeimage { width: 75%; };
+.resizeimage img { width: 100%; };
 .kotae{
   margin: auto;
   text-align: center;
