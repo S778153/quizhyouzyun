@@ -1,25 +1,12 @@
-body{
-  margin: auto;
-  text-align: center;
-  font-size: 75%;
-}
-
-img{
-  width: 400px;
-  margin: auto;
-}
-body{
-  text-align: center;
-}
-
-
 .quizzes-container {
-  width: 400px;
-  margin: 50px auto;
+  text-align: center;
 }
-
-.quiz-container {
-  padding-bottom: 20px;
+img {
+  max-width: 75%;
+  height: 750px;
+}
+hr {
+  max-width: 650px;
 }
 
 .btn {
@@ -28,8 +15,10 @@ body{
 }
 
 #score-container {
+  margin: auto;
   border: 1px solid black;
   height: 50px;
+  max-width: 200px;
 }
 
 .btn-score {
