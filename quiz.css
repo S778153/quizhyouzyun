@@ -1,8 +1,4 @@
-.resizeimage { width: 75%;
-}
-.resizeimage img { width: 100%;
-}
-.kotae{
+body{
   margin: auto;
   text-align: center;
   font-size: 75%;
@@ -53,8 +49,8 @@ body{
 }
 .asa-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -89,8 +85,8 @@ body{
 }
 .oum-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -125,8 +121,8 @@ body{
 }
 .wain-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -161,8 +157,8 @@ body{
 }
 .yasi-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -197,8 +193,8 @@ body{
 }
 .syou-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -233,8 +229,8 @@ body{
 }
 .tei-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -269,8 +265,8 @@ body{
 }
 .you-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
@@ -305,8 +301,8 @@ body{
 }
 .rou-button {
   display: inline-block;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
   padding: 8px;
   background-color: #dbdbdb;
   color: #000000;
